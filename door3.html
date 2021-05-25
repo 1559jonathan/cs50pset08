@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Makes the website responsive so it looks good on mobile devices -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <!-- Brings in Raleway Regular as a font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Your Mom's House</title>
+    </head>
+
+    <body>
+        <header>CS50 Problem Set 08</header>
+
+        <h2>You won!</h2>
+
+        <p class="other_rooms">The treasure was here all along. Give your mom a call!</p>
+
+        <hr>
+
+        <p>Check out the other rooms!</p>
+
+        <a href="index.html">
+            <div class="door_div" style="background:#E9EAE0" onmouseover="this.style.background='#18A558';this.style.color='#FFFFFF';" onmouseout="this.style.background='#E9EAE0';this.style.color='#000000';">
+                <p>Door Back to the Main Room</p>
+            </div>
+        </a>
+
+        <a href="door1.html">
+            <div class="door_div" style="background:#E9EAE0" onmouseover="this.style.background='#F36870';this.style.color='#FFFFFF';" onmouseout="this.style.background='#E9EAE0';this.style.color='#000000';">
+                <p>Door to Infinite Pain & Suffering</p>
+            </div>
+        </a>
+
+        <a href="door2.html">
+            <div class="door_div" style="background:#E9EAE0" onmouseover="this.style.background='#FFF593';" onmouseout="this.style.background='#E9EAE0';">
+                <p>Door to Infinite Gold & Riches</p>
+            </div>
+        </a>
+    </body>
+</html>

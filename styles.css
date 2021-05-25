@@ -1,0 +1,43 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a, a:visited, a:hover {
+    color: #000000;
+}
+
+.door_div {
+    border-radius: 15px;
+    display: inline-block;
+    height: 350px;
+    width: 200px;
+    line-height: 350px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.door_div p {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.other_rooms {
+    margin-bottom: 55px
+}
